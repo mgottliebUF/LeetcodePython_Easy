@@ -32,4 +32,17 @@ prev = 0 (where zeros are)
 """
 
 
+class Solution: 
+  def moveZeroes(self, nums: list[int]) -> None: 
+  """
+  Do not return anything, modify nums in-place instead.
+  """
+  prev_idx = 0
+  for i in range(0,len(nums)): 
+    if i nums[i] != 0: 
+      hold = nums[prev_idx] 
+      nums[prev_idx] = nums[i] 
+      nums[i] = hold
+      prev_idx+=1
+
 
