@@ -11,6 +11,9 @@ Create a new array and loop over it, if a number is not zero add it to a new arr
 However, problem asks for this to be done in place.
 
 Also want to minimize the number of operations
+
+
+Main idea is to have the prev pointer to hold onto the zero index.
 """
 
 
