@@ -1,0 +1,8 @@
+"""
+Given a binary tree, invert it
+"""
+
+"""
+Two possible approaches here: 
+
+1. Recursion: Need to plan recursion in advance
