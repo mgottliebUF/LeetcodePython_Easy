@@ -1,1 +1,4 @@
 
+#input: [7,1,5,3,6,4]
+
+#max - min if min(idx) < max(idx)
